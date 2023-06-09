@@ -1,0 +1,32 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17",
+      "installMaven": "true",
+      "mavenVersion": "3.8.6",
+      "installGradle": "false"
+    },
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "forwardPorts": [8080, 3000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "pranaygp.vscode-css-peek",
+        "vscjava.vscode-java-pack",
+        "donjayamanne.githistory",
+        "AntiAntiSepticeye.vscode-color-picker",
+        "DotJoshJohnson.xml",
+        "vscode-icons-team.vscode-icons",
+        "ruiquelhas.vscode-uppercase",
+        "EditorConfig.EditorConfig",
+        "vmware.vscode-boot-dev-pack",
+        "redhat.fabric8-analytics",
+        "antfu.browse-lite"
+      ]
+    }
+  }
+}
